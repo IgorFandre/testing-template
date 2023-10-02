@@ -10,7 +10,7 @@ for i in range(1000):
   system('./solution < in.txt > solution.txt')
   system('./ok < in.txt > ok.txt')
 
-  with open('D.txt') as my:
+  with open('solution.txt') as my:
     my_text = my.readlines()
  
   with open('ok.txt') as other:
